@@ -6,9 +6,9 @@ void bubble_sort(int arr[],int s,int e)
 {
     if(e==1)return;
 
-    if(s==e)
+    if(s==e-1)
     {
-        bubble_sort(arr,0,e-1);
+        return bubble_sort(arr,0,e-1);
     }
 
     if(arr[s]>arr[s+1])
