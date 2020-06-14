@@ -49,7 +49,9 @@ bool arrangeQueens(int board[][10],int i,int n)
             }
             cout<<endl;
         }
-        return true;
+
+
+        return true;  //return false if you need to have all possible answers
     }
 
     //rec case
